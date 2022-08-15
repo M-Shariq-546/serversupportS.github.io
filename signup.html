@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="login.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <!-- <script src="script.js"> -->
+        <script type="text/javascript" src="script.js">
+    </script>
+    <title>Sign up</title>
+</head>
+<body>
+    <div id="upper">
+        <div class="pic"><img src="icon.jpeg" alt="logo" width="110px" height="119px"></div>
+        <div  id="cont"><span  id="head">IT SUPPORT HUB</span></div>
+        <div id="nav">
+            <a href="index.html"><input type="button" Value="Home" id="btn"></a>
+            <a href="contact.html"><input type="button" Value="Contact" id="btn"></a>
+            <a href="#"><input type="button" Value="Sign Up" id="btn" onclick="alert('You are already on this page . Do you want to stay ???')"></a>
+        </div>
+    <img src="login.jpg" alt="Login" id="logpic">
+    <div class="formcontain">
+        <form action="thanks.html" method="get" id="myform">
+            <h1 id="login">Sign UP</h1>
+            <br>
+            <center>
+            <label for="Name" id="Name">Name : </label><input type="text" name="Name : " id="Name" placeholder="M. Shariq" required>
+            <br>
+            <label for="FName" id="FName">Father Name : </label><input type="text" name="FatherName : " id="FName" placeholder="M. Shafiq" required>
+            <br>
+            <label for="Email" id="Email">Email : </label><input type="email" name=" Email : " id="Email" placeholder="username@gmail.com" required>
+            <br>
+            <label for="Phone" id="Phone">Phone Number : </label><input type="tel" name=" phone : " id="Phone" placeholder="03*********" required>
+            <br>
+            <label for="City" id="City">City : </label><input type="text" name=" City: " id="City" placeholder="Lahore , Karachi , Quetta , Islamabad" required>
+            <br>
+            <label for="marital" id="marital">Marital Status : </label>
+            <label for="male" id="Male">Male</label><input type="radio" name="Male" id="male">
+            <label for="female" id="Female">Female</label><input type="radio" name="Female" id="female">
+            <br>
+            <label for="age" id="Age">Age : </label><input type="tel" name="Age" id="Age" placeholder="22 , 18 etc" required>
+            <br>
+            <label for="study" id="study">Qualification : </label><input type="text" name=" Study : " id="study" placeholder="Matric, Fsc , BS " required>
+            <br>
+            <label for="Picture" id="pict">Upload Your Picture</label><input type="file" name="Upload" id="pict">
+            <br>
+            <label for="password" id="password">Password : </label><input type="password" name="password" id="password" placeholder="***********" required>        
+            <br>
+            </center>
+            <a href="mailto:mshariq28022000@gmail.com"><a href="thanks.html"><input type="button" value="Submit" id="submit" onsubmit=" return validate();"></a></a>
+            <br>
+            <br>
+            <br><br><br>
+            <label for="havingacc" id="havingacc">Already have an Account ? </label><a href="havingacc.html"><input type="button" value="Login" id="submit1"></a>
+        </form>
+</div>
+</body>
+</html>

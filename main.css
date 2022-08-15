@@ -1,0 +1,566 @@
+body{
+    margin: 0px;
+    height: 100%;
+    display:block;
+    width: auto;
+    background-color:#373E98 ;
+}
+.pic{
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+    left: 10px;
+}
+#btn{
+    background-color: darkcyan;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 60px;
+    margin-top: -45px;
+    left: 910px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: 0.5s;
+    box-shadow: 4px 5px lightseagreen;
+    border-radius: 20px 20px 20px 20px;
+}
+#btn:hover{
+    background-color: pink;
+    color: black;
+}
+#cont{
+    margin-top: -85px;
+}
+#http{
+    margin-left: 430px;
+    margin-top: 35px;
+}
+#fig{
+    color: lightseagreen;
+    text-shadow: 1px 1px black;
+    margin-left: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+#head{
+    color: aliceblue;
+    position: relative;
+    margin-left: 167px;
+    margin-top: -110px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-style: normal;
+    text-shadow: 1px 1px black;
+    margin-bottom: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+    font-style: italic;
+}
+#head:hover{
+    color: lightsalmon;
+    font-style: italic;
+    text-shadow:  5px 5px 5px black;
+    transition-delay: 0.1s;
+}
+#data{
+   color: green;
+       font-size: 35px;
+       margin-top: 170px;
+       margin-left: 220px;
+       font-style: italic;
+       text-shadow: 1px 1px black;
+       font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#data1{
+    color: green;
+        font-size: 35px;
+        text-shadow: 1px 1px black;
+        margin-top: 115px;
+        margin-left: 220px;
+        box-sizing: content-box;
+        font-style: italic;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+#para{
+    color: black;
+    text-shadow: 1px white;
+    font-size: 28px;
+    box-sizing: border-box;
+    border-left: 2px solid black;
+    border-radius: 1px solid black;
+    margin-top: -370px;
+    margin-left: 50px;
+    margin-right: 510px;
+    padding: 5px;
+}
+#para1{
+    color: black;
+    font-size: 28px;
+    text-shadow: 1px white;
+    box-sizing: border-box;
+    border-left: 2px solid black;
+    border-radius: 1px solid black;
+    margin-top: -65px;
+    margin-left: 50px;
+    margin-right: 150px;
+    padding: 5px;
+}
+#link{
+    color: lightcoral;
+}
+#details{
+    color: green;
+    text-shadow: 1px 1px black;
+    margin-left: 80px;
+    margin-top: 0px;
+    font-size: 38px;
+    box-sizing: content-box;
+        font-style: italic;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#para2{
+    margin-top: 10px;
+    color: black;
+    text-shadow: 1px white;
+    font-size: 28px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-left: 2px solid black;
+    border-radius: 1px solid black;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+#fixed{
+    font-size: 70px;
+    width: 70px;
+}
+#serpic{
+    margin-right: 140px;
+    width: 350px;
+    right: 50px;
+    height: 250px;
+    float: right;
+    margin-top: 45px;
+}
+#vl {
+    border-left: 2px solid black;
+    height: 400px;
+    margin-top: 90px;
+    margin-left: 650px;
+}
+#httpserver{
+    left: 20;
+    margin-left: 150px;
+}
+#serhead{
+   right: 73px;
+       margin-left: 746px;
+       margin-top: -445px;
+       text-shadow:1px 1px black;
+       color: crimson;
+       margin-right: 165px;
+}
+#serhead:hover{
+    text-shadow:1px 1px black;
+    color: burlywood;
+    transition-delay: 0.3s;
+    transition-duration: 0.2s;
+}
+#vl1 {
+    border-left: 2px solid black;
+    height: 300px;
+    margin-top: 500px;
+    margin-left: 920px;
+}
+#vl2 {
+    border-left: 2px solid black;
+    height: 300px;
+    margin-top: -307px;
+    margin-left: 463px;
+}
+.container{
+    background-color: black;
+    border:1px solid black;
+    border-radius: 2px 2px 2px 2px;
+    color: black;
+    float: left;
+    left: 50px;
+    padding: 12px;
+    margin-top: 460px;
+    margin-left: 98px;
+}
+.container2{
+    border: 1px solid black;
+    border: 2px 2px 2px 2px;
+    background-color: black;
+    float: right;
+padding: 12px;
+margin-top: -313px;
+margin-right: -732px;    
+}
+.conatiner1{
+    border: 1px solid black;
+    border: 2px 2px 2px 2px;
+    background-color: black;
+    float: right;
+padding: 12px;
+margin-top: 460px;
+margin-right: 26px;
+}
+.formcontain{
+    background-color: burlywood;
+    width: 425px;
+    height: 570px;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 20px black;
+box-sizing: border-box;
+    box-shadow: 1px solid black;
+    margin-left: 500px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.conatiner1:hover{
+    box-shadow:10px 10px wheat;
+    transition: 0.8s;
+}
+.container2:hover{
+    box-shadow:10px 10px wheat;
+    transition: 0.8s;
+}
+.container:hover{
+    box-shadow:10px 10px wheat;
+    transition: 0.8s;
+}
+#logpic{
+    width: 425px;
+    height: 160px;
+    margin-left: 226px;
+    margin-top: 101px;
+    margin-bottom: -95px;   
+}
+#btn1{
+   background-color: pink;
+       padding: 10px 10px 10px 10px;
+       color: black;
+       position: relative;
+       text-align: center;
+       font-size: 17px;
+       float: left;
+       margin-right: -232px;
+       margin-bottom: 10px;
+       margin-top: 23px;
+       right: -230px;
+       cursor: pointer;
+       border: 1px solid black;
+       transition: 0.5s;
+       box-shadow: 4px 5px lightseagreen;
+       border-radius: 20px 20px 20px 20px;
+}
+#hor{
+    background-color: black;
+    margin-top: 42px;
+    border-color: black;
+}
+#hor1{
+    background-color: black;
+    margin-top: 35px;
+    border-color: black;
+}
+#hor2{
+    background-color: black;
+    margin-top: 120px;
+    border-color: black;
+}
+#btn1:hover{
+    background-color: lightgreen;
+    color: lightslategray;
+}
+.footer
+{
+    background: linear-gradient(to right , #0072B5 0% , #00A170 100%);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    width: auto;
+    margin-top: 150px;
+    margin-bottom: -18px;
+}
+#Order1{
+    position: relative;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+}
+#btn2{
+    background-color: pink;
+        padding: 10px 10px 10px 10px;
+        color: black;
+        position: relative;
+        text-align: center;
+        font-size: 17px;
+        float: left;
+        margin-right: -232px;
+        margin-bottom: 10px;
+        margin-top: 23px;
+        right: -147px;
+        cursor: pointer;
+        border: 1px solid black;
+        transition: 0.5s;
+        box-shadow: 4px 5px lightseagreen;
+        border-radius: 20px 20px 20px 20px;
+ }
+ #btn2:hover{
+     background-color: lightgreen;
+     color: lightslategray;
+ }
+#server
+{
+    width: 400px;
+    height: 450px;
+    left: 20px;
+    margin-left: 940px;
+    margin-top: -10%;
+}
+#rating{
+    left: 73px;
+    margin-right: 772px;
+    text-shadow:1px 1px black;
+    margin-top: -433px;
+    color: crimson;
+    margin-left: 223px;
+}
+#rating:hover{
+    color: burlywood;
+    text-shadow:1px 1px black;
+    transition-delay: 0.3s;
+transition-duration: 0.2s;
+}
+#client{
+    left: 30px;
+       margin-left: 275px;
+    width: 120px;
+    height: 120px;
+    margin-top: 70px;
+}
+#perc{
+    color: aqua;
+    left: 30px;
+    margin-left: 300px;
+    font-size: 45px;
+    width: 120px;
+    height: 120px;
+    margin-top: 38px; 
+    font-style: italic;
+}
+#perc:hover{
+    color: black;
+    font-style: italic;
+}
+#server2{
+    color: green;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    left: 100px;
+}
+#orpic{
+    margin-left: -50px;
+}
+#form{
+    background-color: none;
+        color: green;
+        font-size: 31px;
+        margin-left: 485px;
+        margin-right: 452px;
+        margin-top: 42px;
+        font-style: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+}
+#label{
+    color: green;
+    background-color: blue;
+    background: none;
+}
+#name , #message , #fname , #phone , #pict , #email , #city , #marital , #male , #female , #other , #Study , #age , #pwd{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 10px;
+}
+#login{
+    color: rgb(224, 9, 45);
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+#fb , #insta , #linkedin{
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 40px;
+}
+#social{
+    color: white;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+#Name , #FName , #Phone , #Email , #City  , #study , #Age , #password
+{
+    background-color: burlywood;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+#message{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;   
+}
+#submit{
+        background-color: pink;
+            padding: 10px 10px 10px 10px;
+            color: black;
+            position: relative;
+            text-align: center;
+            font-size: 17px;
+            float: left;
+            margin-right: -232px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            right: -177px;
+            cursor: pointer;
+            border: 1px solid black;
+            transition: 0.5s;
+            box-shadow: 4px 5px lightseagreen;
+            border-radius: 20px 20px 20px 20px;
+     }
+     #submit:hover{
+         background-color: lightgreen;
+         color: lightslategray;
+}
+#Back{
+    background-color: pink;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    margin-right: -232px;
+    margin-bottom: 10px;
+    margin-top: 23px;
+    right: -621px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: 0.5s;
+    box-shadow: 4px 5px lightseagreen;
+    border-radius: 20px 20px 20px 20px;   
+}
+#Back:hover{
+    background-color: lightgreen;
+    color: lightslategray;   
+}
+#head1{
+    color: lightsalmon;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    margin-top: 60px;
+}
+#content{
+    width: 200px;
+    height: 150px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+#oop{
+    font-size: 29px;
+    color: white;
+    margin-left: 500px;
+}
+#oop:hover{
+    color: #00A170;
+    text-shadow: 1px black;
+}
+#code{
+    height: 450px;
+    width: 850px;
+    float: right;
+    left: 150px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.containeroop{
+    background-color: black;
+border:1px solid black;
+border-radius: 2px 2px 2px 2px;
+color: black;
+float: left;
+left: 50px;
+padding: 12px;
+margin-top: 460px;
+margin-left: 98px;
+}
+.conatiner1oop{
+    border: 1px solid black;
+    border: 2px 2px 2px 2px;
+    background-color: black;
+    float: right;
+padding: 12px;
+margin-top: 460px;
+margin-right: 26px;
+}
+.container2oop{
+    border: 1px solid black;
+    border: 2px 2px 2px 2px;
+    background-color: black;
+    float: right;
+padding: 12px;
+margin-top: -313px;
+margin-right: -732px;    
+}
+#submit1{
+    background-color: pink;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    margin-right: -232px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    right: -185px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: 0.5s;
+    box-shadow: 4px 5px lightseagreen;
+    border-radius: 20px 20px 20px 20px;
+}
+#submit1:hover{
+    background-color: lightgreen;
+color: lightslategray;
+}
+#havingacc{
+    margin-top: 30px;
+    color: black;
+    font-size: 23px;
+    text-align: center;
+    margin-left: 100px;
+}
