@@ -1,44 +1,59 @@
-function validate() {
-    var name = document.getElementById("Name").value;
-    var email = document.getElementById("Email").value;
-    var father_name = document.getElementById("FatherName").value;
-    var phone = document.getElementById("Phone").value;
-    var city = document.getElementById("City").value;
-    var age = document.getElementById("Age").value;
-    var Study = document.getElementById("study").value;
-    var pwd = document.getElementById("password").value;
-    if (name == null || name == "") {
-        alert("Please enter the Name.");
-        return false;
+document.getElementById('Login').addEventListener('click' , ()=>{
+    validate()
+})
+document.getElementById('pwd').addEventListener('input' , () => {
+    pwdvalidate()
+})
+function validate()
+{
+    var email = document.getElementById('Email').value;
+    var pwd = document.getElementById('pwd').value;
+    if(email == "")
+    {
+        console.log('Please Fill the Email Field.');
     }
-    if (pwd == null || pwd == "") {
-        alert("Please enter the Password.");
-        return false;
+    else{
+        console.log(email);
     }
-    if (email == null || email == "") {
-        alert("Please enter the Email.");
-        return false;
+    if(pwd == "")
+    {
+        console.log('Please Fill the Password Field.');
     }
-    if (father_name == null || father_name == "") {
-        alert("Please enter Father Name.");
-        return false;
+    else{
+        console.log(pwd);
     }
-    if (phone == null || phone == "") {
-        alert("Please enter the Phone Number.");
-        return false;
+}
+function pwdvalidate()
+{
+    var pass = document.getElementById('pwd');
+    var charup = document.getElementById('charup');
+    var charlow = document.getElementById('charlow');
+    var spechar = document.getElementById('spechar');
+    var num = document.getElementById('num');
+    var len = document.getElementById('len');
+    if(pass.value.match(/[0-9]/)){
+        num.style.color = 'green'
+    }else{
+        num.style.color = 'red'
     }
-    if (city == null || pcity == "") {
-        alert("Please enter the City of Residence.");
-        return false;
+    if(pass.value.match(/[A-Z]/)){
+        charup.style.color = 'green'
+    }else{
+        charup.style.color = 'red'
     }
-    if (Study == null || Study == "") {
-        alert("Please enter the Qualification.");
-        return false;
+    if(pass.value.match(/[a-z]/)){
+        charlow.style.color = 'green'
+    }else{
+        charlow.style.color = 'red'
     }
-    if (age == null || age == "") {
-        alert("Please enter the Age.");
-        return false;
-    } 
-    document.write('Login successful');
-    
-} 
+    if(pass.value.match(/[!\@\#\$\%\^\&\*\(\)\-\+\=\_\?\<\>\.\,]/)){
+        spechar.style.color = 'green'
+    }else{
+        spechar.style.color = 'red'
+    }
+    if(pass.value.length < 8){
+        len.style.color = 'red'
+    }else{
+        len.style.color = 'green'
+    }
+}
